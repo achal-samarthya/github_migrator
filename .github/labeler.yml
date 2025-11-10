@@ -1,0 +1,20 @@
+# Auto-label PRs and issues based on file paths
+python:
+  - github_migrator/**/*.py
+
+documentation:
+  - '*.md'
+  - 'docs/**'
+  - '.github/**/*.md'
+
+config:
+  - '*.json'
+  - '*.yml'
+  - '*.yaml'
+  - 'config.example.json'
+
+tests:
+  - 'tests/**'
+  - '**/*test*.py'
+  - '**/*_test.py'
+

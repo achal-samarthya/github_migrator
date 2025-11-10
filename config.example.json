@@ -1,0 +1,99 @@
+{
+  "github": {
+    "api_url": "https://api.github.com/graphql",
+    "rest_url": "https://api.github.com",
+    "api_version": "2022-11-28",
+    "timeout": 60,
+    "max_retries": 5,
+    "retry_delay": 1.0
+  },
+  "project": {
+    "source_repo_id": "R_kgDOO4qToA",
+    "source_project_id": "PVT_kwDODKp0h84BGorz",
+    "target_repo_id": "R_kgDOO4qToA",
+    "target_project_id": "PVT_kwDODKp0h84BGorz",
+    "target_owner": "your-org",
+    "target_repo": "your-repo"
+  },
+  "field_mapping": {
+    "iteration_mapping": {
+      "7": "0f73d4f0",
+      "8": "fe0f8c09",
+      "9": "f8bb1a9c",
+      "10": "bbfaf577",
+      "11": "6511a293",
+      "12": "12f1ca98",
+      "13": "f523ac1a",
+      "14": "2965beb8"
+    },
+    "quarter_mapping": {
+      "2": "650acdf8",
+      "3": "8e26780e",
+      "4": "6e28f618",
+      "5": "c7ab082f",
+      "6": "0cf0be72"
+    },
+    "status_mapping": {
+      "backlog": "24283cef",
+      "blocked": "8b999f9f",
+      "done": "98236657",
+      "in progress": "47fc9ee4",
+      "no status": "386c7c23",
+      "review": "f75ad846"
+    },
+    "team_mapping": {
+      "dev team": "4f63b0ca",
+      "product team": "136f930a",
+      "qa team": "ce3e9777"
+    },
+    "priority_mapping": {
+      "p0": "9a338b2e",
+      "p1": "eba33302",
+      "p2": "234dd57d",
+      "p3": "ec48b058",
+      "p4": "d8106ad6"
+    },
+    "readiness_mapping": {
+      "done": "990f77b7",
+      "in progress": "d70a294d",
+      "needs spike investigation": "a5c1ba01",
+      "not broken down yet": "81700c4c",
+      "ready for development": "bf9f658e"
+    },
+    "effort_mapping": {
+      "1-2 weeks": "208d45e2",
+      "12+ weeks": "4efd2ef4",
+      "3-4 weeks": "b7a43978",
+      "5-8 weeks": "fae88aa1",
+      "9-12 weeks": "e1e9f72a",
+      "unknown": "ee85bf6c"
+    },
+    "milestone_mapping": {
+      "app security report approved": "MI_kwDOO4qToM4A1aYD",
+      "dns provided by git team": "MI_kwDOO4qToM4A1aYz"
+    },
+    "label_mapping": {
+      "bug": "LA_kwDOO4qToM8AAAACCb4VEg",
+      "enhancement": "LA_kwDOO4qToM8AAAACCb4VIw",
+      "documentation": "LA_kwDOO4qToM8AAAACCb4VFw"
+    },
+    "user_mapping": {
+      "John Doe": "U_kgDODLJmDA",
+      "johndoe": "U_kgDODLJmDA"
+    },
+    "issue_type_mapping": {
+      "bug": "IT_kwDODKp0h84Bmw2g",
+      "default": "IT_kwDODKp0h84Bmw2f"
+    }
+  },
+  "processing": {
+    "batch_size": 100,
+    "sleep_between_requests": 0.0,
+    "dry_run": false,
+    "continue_on_error": true,
+    "multi_value_separator": "||",
+    "output_directory": "output",
+    "log_level": "INFO"
+  }
+}
+

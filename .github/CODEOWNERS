@@ -1,0 +1,25 @@
+# This file defines code owners for the repository
+# Each line is a file pattern followed by one or more owners
+# Order is important; the last matching pattern takes precedence
+
+# Default owners for everything in the repo
+* @yourusername
+
+# Specific file patterns
+/.github/ @yourusername
+/README.md @yourusername
+/LICENSE @yourusername
+
+# Python code
+*.py @yourusername
+/github_migrator/ @yourusername
+
+# Configuration files
+*.json @yourusername
+*.yml @yourusername
+*.yaml @yourusername
+
+# Documentation
+*.md @yourusername
+/docs/ @yourusername
+

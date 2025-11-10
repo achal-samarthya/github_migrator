@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include requirements.txt
+include config.example.json
+recursive-include github_migrator *.py
+global-exclude __pycache__
+global-exclude *.py[co]
+
